@@ -1,0 +1,10 @@
+    
+
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+if i in l:
+    if i not in m:
+        m.append9i0
+        m.sort(reverse=true)
+        print(m[1])
