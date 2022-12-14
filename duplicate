@@ -1,0 +1,8 @@
+n=int(input())
+i=list(map(int,input.split()))
+print(i)
+s=set=set(i)
+x=list(s)
+print(x)
+    
+
