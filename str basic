@@ -1,0 +1,10 @@
+str1=input()
+l=len(str1)
+print(l)
+str2=input("entersamllletters")
+print(str2.upper())
+str3=input("enter capital letters")
+print(str3.lower())
+str4=input("enter mixed string")
+print(str4.swapcase())
+
