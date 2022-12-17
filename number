@@ -1,0 +1,8 @@
+
+str=input()
+l=len(str)
+for i in range(0,l):
+    if str[i].isdigit()==1:
+        print(str[i],"is digit")
+else:
+     print(str[i],"is not a digit")
