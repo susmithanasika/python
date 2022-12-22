@@ -1,0 +1,16 @@
+nterms = int(input())
+num1,num2=0,1
+count=0
+if nterms<=0:
+   print('enter positive number')
+elif nterms== 1:
+    print('fibnocci sequence upto',nterms,":")
+    print(num1)
+else:
+    print('fabnacci sequence')
+    while count < nterms:
+        nth = num1+num2
+        num1=num2
+        num2=nth
+        count+=1
+           
